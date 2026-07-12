@@ -4,7 +4,6 @@
 
 让 Krea2 在 ComfyUI 中使用更方便、更强大，支持更好的提示词处理。
 
-添加了一个工作流。
 
 ## ✨ 使用方法
 comfyUI画布内 双击搜索 落日或者Krea2  即可
@@ -30,7 +29,7 @@ comfyUI画布内 双击搜索 落日或者Krea2  即可
 ### 方法二：手动安装
 ```bash
 cd ComfyUI/custom_nodes
-git clone https://github.com/piaoling44/ComfyUI-luori-ZImage.git
-cd ComfyUI-luori-ZImage
+https://github.com/luori668/ComfyUI-luori-Krea2.git
+cd ComfyUI-luori-Krea2
 pip install -r requirements.txt
 
