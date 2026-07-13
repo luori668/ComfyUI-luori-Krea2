@@ -5,5 +5,5 @@ NODE_CLASS_MAPPINGS = {
 }
 
 NODE_DISPLAY_NAME_MAPPINGS = {
-    "Krea2PromptPicker": "Krea2 落日krea2提示词",
+    "Krea2PromptPicker": "Krea2 落日提示词",
 }
