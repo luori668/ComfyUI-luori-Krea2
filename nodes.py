@@ -42,6 +42,7 @@ class Krea2PromptPicker:
             "mode": (["concat", "single"], {"default": "single"}),
             "separator": ("STRING", {"default": ", "}),
             "超强中文模式": ("BOOLEAN", {"default": True}),
+            "NSFW": ("BOOLEAN", {"default": False}),
         }
 
         for i in range(1, cls.PART_COUNT + 1):
@@ -66,12 +67,21 @@ class Krea2PromptPicker:
 
         active_pools = []
 
+        # 超强中文模式
         if kwargs.get("超强中文模式", False):
             zc_path = os.path.join(prompt_dir, "part-zc.json")
             pool = load_prompts_from_json(zc_path)
             if pool:
                 active_pools.append(pool)
 
+        # NSFW 模式（加载 part13.json）
+        if kwargs.get("NSFW", False):
+            nsfw_path = os.path.join(prompt_dir, "part13.json")
+            pool = load_prompts_from_json(nsfw_path)
+            if pool:
+                active_pools.append(pool)
+
+        # 普通提示词组
         for i in range(1, self.PART_COUNT + 1):
             if kwargs.get(f"提示词{i}", False):
                 path = os.path.join(prompt_dir, f"part{i:02d}.json")
