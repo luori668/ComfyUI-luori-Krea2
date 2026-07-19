@@ -21,7 +21,8 @@ comfyUI画布内 双击搜索 落日或者Krea2  即可
 3. 搜索 `ComfyUI-luori-Krea2`
 4. 安装后重启 ComfyUI
  
-5.<img width="1165" height="739" alt="03f31399-4f57-4cb3-a50b-af55a41aa735" src="https://github.com/user-attachments/assets/89ca54f1-f7f8-4476-ba44-ce8a7037517f" />
+5.<img width="1637" height="945" alt="03ebd05f-2cbe-4afa-9fe6-00c668d87139" src="https://github.com/user-attachments/assets/058c0e48-183f-4fcc-be0d-a9f8ddfa5914" />
+
 
 
 
