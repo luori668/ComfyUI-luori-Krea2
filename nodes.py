@@ -41,6 +41,11 @@ class Krea2PromptPicker:
             "触发词内容": ("STRING", {"default": "", "multiline": True}),
             "超强中文模式": ("BOOLEAN", {"default": True}),
             "NSFW": ("BOOLEAN", {"default": False}),
+            "使用提示": ("STRING", {
+                "default": "提示：开关互斥，多开无效（包括中文模式）此处勿动。",
+                "multiline": True,
+                "readonly": True,
+            }),
         }
         for i in range(1, cls.PART_COUNT + 1):
             required[f"提示词{i}"] = (
