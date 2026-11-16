@@ -1,0 +1,92 @@
+ComfyUI-luori-Krea2 - NOTICE
+Copyright (C) 2026 luori668
+SPDX-License-Identifier: GPL-3.0-or-later
+
+本文件是本仓库的归属声明与附加条款声明。再分发本软件或其修改版时，
+须随附本文件并保留其中的全部归属声明。本文件为 GPL-3.0 第 7 条
+所称 "a notice indicating where to find the applicable terms" 的
+集中声明位置。
+
+========================================================================
+一、私人所有部分（Owned Material）
+========================================================================
+
+「私人所有」指版权归 luori668 单独享有；权利人已自愿就该部分
+以 GPL-3.0-or-later 向公众授权，所有权与授权并不冲突。
+本仓库全部材料均属本节范围，不存在第三方组件、第三方素材来源、
+共同权利人或授权链例外：
+
+  __init__.py / nodes.py        节点注册与提示词抽取逻辑
+  part/ 下 14 个 JSON 词库     part-zc.json、part01.json … part13.json
+  示例工作流.json              示例工作流
+  README.md / LICENSE / NOTICE / ~许可证
+
+part/ 下全部词库 JSON（含 part-zc.json 等 14 个文件）
+均为 luori668 私人所有，一并纳入 GPL-3.0-or-later 授权范围，
+受本文件第 2 节所列 GPL 第 7 条附加条款约束。词条多为短句与数据，依法律不强主张单条词条的著作权；
+本 NOTICE 主张的是词库文件的选择、编排与清洗所形成的整理成果。
+
+========================================================================
+二、ADDITIONAL TERMS UNDER GNU GPL SECTION 7 (b), (c) AND (d)
+========================================================================
+
+Pursuant to Section 7 of the GNU General Public License version 3,
+the following additional terms apply to all material in this repository,
+which is owned solely by luori668, including
+every dictionary JSON file under part/ and the example workflow.
+"Owned Material" means the material described in section one.
+There are no third-party components, third-party material sources
+or joint copyright holders in this repository.
+
+  (b) Requiring preservation of author attributions:
+      Any conveyance of the Owned Material, or of any work containing
+      it, must preserve in a reasonably prominent manner the copyright
+      notice "Copyright (C) 2026 luori668", the author attribution
+      "luori668", the project name "ComfyUI-luori-Krea2", and the
+      reasonable legal notices set out in this NOTICE file.
+
+  (c) Prohibiting misrepresentation of origin and requiring marking of
+      modified versions:
+      The origin of the Owned Material must not be misrepresented.
+      Any modified version must be marked in a reasonable way as being
+      different from the original, must state that changes were made and
+      the date of those changes, and must not be presented as, or named
+      so as to be confused with, the original work.
+
+  (d) Limiting use of names for publicity purposes:
+      The names "luori668" and "ComfyUI-luori-Krea2", and the names of
+      the authors of the Owned Material, may not be used for
+      publicity purposes, nor to endorse or promote any derived work,
+      without prior written permission from luori668.
+
+中文对照（解释用，英文条款为准）：
+  (b) 再分发私人所有部分时必须显著保留版权行、作者署名、项目名与本 NOTICE。
+  (c) 不得歪曲来源；修改版必须显著标注「已修改 + 修改日期」，且不得冒称原版。
+  (d) 未经 luori668 事先书面许可，不得用作者名或项目名做宣传、背书或推广衍生作品。
+
+本文件不含「禁止再发布」「禁止商用」「须另行取得授权」等条款；
+GPL-3.0 第 7 条与第 10 条将此类限制视为可被下游剥离的 further
+restrictions，故不采用。根目录 ~许可证 仅作著作权归属说明，
+不构成额外限制。
+
+========================================================================
+三、运行依赖与权利边界
+========================================================================
+
+ComfyUI 本体采用 GPL-3.0，本仓库作为独立 custom node 分发，
+不复制其源码。仓库地址: https://github.com/comfyanonymous/ComfyUI
+Krea2 / Z-Image 为图像模型名称，非本仓库组件，不涉及材料归属。
+除上述运行依赖外，本仓库不存在任何第三方项目、第三方素材或
+共同权利人。
+
+========================================================================
+四、版本划线
+========================================================================
+
+自 2026-11-17 的许可证切换提交起: GPL-3.0-or-later + 本 NOTICE
+中的第 7 条附加条款。
+该提交之前: Apache-2.0。依 Apache-2.0 第 2 条，该授权永久且
+不可撤销，历史版本及其快照继续适用原条款，本 NOTICE 不改变其
+授权状态。
+本仓库未建立划线 tag；如需固定证据，可在切换前的最后一个提交上
+补建 tag v1.1.0-apache。
